@@ -6,7 +6,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "eslint -c .eslintrc --ext .ts ./src",
-    "start": "yarn run build && electron ./dist/main.js"
+    "start": "yarn run build && electron ./dist/main.js",
+    "runapp": "electron ./dist/main.js"
   },
   "repository": "https://github.com/Thyssenkrupp234/ra1nm8",
   "author": "GitHub",

@@ -19,19 +19,24 @@
 #jbbtn {
     -webkit-appearance: none;
     appearance: button;
-    background-color: #f0f0f0; /* customize the button color to fit your design */
+    background-color: #FF0000; /* customize the button color to fit your design */
     color: #333; /* customize the text color to fit your design */
     border-radius: 10px; /* customize the border radius to fit your design */
     border: none; /* remove the default button border */
     padding: 8px 16px; /* customize the button padding to fit your design */
-    font-size: 14px; /* customize the font size to fit your design */
+    font-size: 20px; /* customize the font size to fit your design */
   }
   
 
 body {
     font-family: "fira-sans-medium";
+    background-color: #beb6b2; /* customize the button color to fit your design */
 }
 
 #footnote {
     font-size: small;
+}
+
+#ra1nm8t {
+    font-size: 50px;
 }
