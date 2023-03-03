@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "fira-sans-medium";
+    src: url("./resources/fonts/FiraSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "fira-sans-light";
+    src: url("./resources/fonts/FiraSans-Light.ttf");
+}
+
+.center-align {
+    text-align: center;
+}
+
+.font-light {
+    font-family: "fira-sans-light";
+}
+
+#jbbtn {
+    -webkit-appearance: none;
+    appearance: button;
+    background-color: #f0f0f0; /* customize the button color to fit your design */
+    color: #333; /* customize the text color to fit your design */
+    border-radius: 10px; /* customize the border radius to fit your design */
+    border: none; /* remove the default button border */
+    padding: 8px 16px; /* customize the button padding to fit your design */
+    font-size: 14px; /* customize the font size to fit your design */
+  }
+  
+
+body {
+    font-family: "fira-sans-medium";
+}
+
+#footnote {
+    font-size: small;
+}
