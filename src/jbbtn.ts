@@ -1,5 +1,6 @@
 const { exec } = require('child_process');
-const btn = document.querySelector("button") as HTMLButtonElement;
+const btn = document.getElementById("jbbtn") as HTMLButtonElement;
+const footnote = document.getElementById("footnote") as HTMLParagraphElement;
 const path = require("path");
 const os = require('os');
 exec('sw_vers -productVersion', (error: any, stdout: string, stderr: any) => {
@@ -23,11 +24,18 @@ exec('sw_vers -productVersion', (error: any, stdout: string, stderr: any) => {
         exec(path.join(__dirname,"/resources/exploit/switcharoo"+" /etc/pam.d/su "+path.join(__dirname,"/resources/exploit/overwrite_file.bin")), (error: any, stdout: any, stderr: any) => {
             if (error) {
                 console.error(`exec error: ${error}`);
-                return;
+                if (stderr.includes("RO mapping was modified")){
+                    btn.innerText = "jailbroken"
+                    btn.style.backgroundColor = "#32e000"
+                    btn.disabled = true
+                    footnote.innerHTML = "successfully jailbroke macOS "+osversion+"! Run <strong><code>su</code></strong> in terminal to gain root."
+                } else if (stderr.includes("no diff?")){
+                    btn.innerText = "jailbroken"
+                    btn.style.backgroundColor = "#32e000"
+                    btn.disabled = true
+                    footnote.innerHTML = "successfully jailbroke macOS "+osversion+"! Run <strong><code>su</code></strong> in terminal to gain root."
+                }
             }
-            console.log(`stdout: ${stdout}`);
-            console.error(`stderr: ${stderr}`);
-            btn.style.backgroundColor = "#32e000";
         });
     };
 });
