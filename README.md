@@ -1,6 +1,8 @@
 # ra1nm8
-Toolbox application for macOS
+Toolbox application for macOS. 
 
-Will use MacDirtyCow for certain functions.
+**Currently has the ability to "jailbreak" (exploit) macOS kernel using 
+CVE-2022-46689 (MacDirtyCow)
 
-Written in C and JavaScript.
+
+Exploit written in C and app written in JavaScript.
