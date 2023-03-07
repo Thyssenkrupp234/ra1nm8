@@ -25,6 +25,7 @@
       "oneClick": "false",
       "perMachine": "false",
       "allowToChangeInstallationDirectory": "true"
-    }
+    },
+    "extraResources": "./resources"
   }
   

@@ -1,11 +1,11 @@
 @font-face {
     font-family: "fira-sans-medium";
-    src: url("./resources/fonts/FiraSans-Medium.ttf");
+    src: url("./fonts/FiraSans-Medium.ttf");
 }
 
 @font-face {
     font-family: "fira-sans-light";
-    src: url("./resources/fonts/FiraSans-Light.ttf");
+    src: url("./fonts/FiraSans-Light.ttf");
 }
 
 .center-align {
