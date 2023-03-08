@@ -30,6 +30,13 @@ exec('sw_vers -productVersion', (error: any, stdout: string, stderr: any) => {
     fs.copyFileSync(appPath+"/resources/exploit/overwrite_file.bin", path.join(homedir,"ra1nm8/overwrite_file.bin"))
     footnote.innerHTML = "waiting for jailbreak"
     btn.onclick = () => {
+        footnote.innerHTML = "ensuring files"
+        if (!fs.existsSync(path.join(homedir+"/ra1nm8/overwrite_file.bin")) || !fs.existsSync(path.join(homedir+"/ra1nm8/switcharoo"))){
+            btn.innerText = "exploit failed";
+            footnote.innerHTML = "one or multiple of the exploit files are missing. please re-run the app";
+            btn.disabled = true;
+            return;
+        }
         btn.textContent = "jailbreaking";
         btn.disabled = true;
         btn.style.backgroundColor = "#FFC300";
