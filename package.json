@@ -1,6 +1,6 @@
 {
   "name": "ra1nm8",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toolbox application for macOS.",
   "main": "./dist/main.js",
   "scripts": {
