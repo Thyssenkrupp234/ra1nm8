@@ -12,3 +12,8 @@ Goals for the final version:
 
 - Modern macOS jailbreaking for as many versions as possible - arm64 (M1/M2) support prioritized
 - Modern Windows jailbreaking for as many versions as possible - managed devices prioritized
+
+
+>> why is this built in electron and not swift or c++ or something <<
+
+>> because electron is easy to implement cross platform and i have the most knowledge writing desktop apps with it <<
