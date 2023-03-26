@@ -12,7 +12,8 @@ Goals for the final version:
 
 - Modern macOS jailbreaking for as many versions as possible - arm64 (M1/M2) support prioritized
 - Modern Windows jailbreaking for as many versions as possible - managed devices prioritized
-
+- Completely revamped UI (Floyd-thecat)
+- Automated exploit detection (decides what exploit to use based on your system version)
 
 >> why is this built in electron and not swift or c++ or something <<
 
