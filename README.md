@@ -17,4 +17,4 @@ Goals for the final version:
 
 > why is this built in electron and not swift or c++ or something?
 
-because electron is easy to implement cross platform and i have the most knowledge writing desktop apps with it <<
+because electron is easy to implement cross platform and i have the most knowledge writing desktop apps with it
