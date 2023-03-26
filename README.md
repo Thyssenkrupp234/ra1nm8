@@ -1,8 +1,6 @@
 # ra1nm8
-Toolbox application for macOS. 
 
-**Currently has the ability to "jailbreak" (exploit) macOS kernel using 
+Work in Progress jailbreak tool for macOS.
+
+**Currently has the ability to "jailbreak" (exploit) macOS 10.13.6 - 12.6.1 // 13.0-13.0.1 kernel using 
 CVE-2022-46689 (MacDirtyCow)**
-
-
-Exploit written in C and app written in JavaScript.
