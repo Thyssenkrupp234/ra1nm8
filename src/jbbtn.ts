@@ -52,7 +52,7 @@ exec('sw_vers -productVersion', (error: any, stdout: string, stderr: any) => {
                     btn.innerText = "jailbroken"
                     btn.style.backgroundColor = "#32e000"
                     btn.disabled = true
-                    footnote.innerHTML = "successfully jailbroke macOS "+osversion+"! Run <strong><code>su</code></strong> in terminal to gain root."                  
+                    footnote.innerHTML = "successfully jailbroke macOS "+osversion+"! Run <strong><code>su</code></strong> in terminal to gain root. <strong>>> changes reverted on reboot<<</strong>"                  
                 }
             }
         });
