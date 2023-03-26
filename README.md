@@ -15,6 +15,6 @@ Goals for the final version:
 - Completely revamped UI (Floyd-thecat)
 - Automated exploit detection (decides what exploit to use based on your system version)
 
->> why is this built in electron and not swift or c++ or something <<
+> why is this built in electron and not swift or c++ or something?
 
->> because electron is easy to implement cross platform and i have the most knowledge writing desktop apps with it <<
+because electron is easy to implement cross platform and i have the most knowledge writing desktop apps with it <<
