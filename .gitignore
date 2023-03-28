@@ -3,3 +3,6 @@ node_modules/
 dist/
 out/
 yarn.lock
+.yarn/
+.pnp.cjs
+.pnp.loader.mjs
